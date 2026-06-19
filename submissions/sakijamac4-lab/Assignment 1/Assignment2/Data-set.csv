@@ -1,0 +1,67 @@
+No.	Age	Weekly Frequency (Mobile Money use)	Avg Amount Sent ($/week)	Avg Amount Received ($/week)	Purpose
+1	21	12	$59	$65	Business (ganacsi)
+2	25	17	$70	$200	Bills (kuraas, koronto)
+3	22	3	$300	$1,000	Business (ganacsi)
+4	22	0	$0	$0	Personal use (qaraabo/saaxiibo)
+5	17	6	$2	$5	Savings (kaydin)
+6	28	7	$800	$1,800	Savings (kaydin)
+7	28	9	$58	$150	Bills (kuraas, koronto)
+8	56	5	$150	$150	Bills (kuraas, koronto)
+9	21	4	$50	$100	Personal use (qaraabo/saaxiibo)
+10	23	7	$200	$300	Business (ganacsi)
+11	23	7	$200	$300	Bills (kuraas, koronto)
+12	27	3	$50	$150	Savings (kaydin)
+13	50	6	$900	$1,800	Business (ganacsi)
+14	30	5	$350	$700	Personal use (qaraabo/saaxiibo)
+15	30	7	$200	$150	Personal use (qaraabo/saaxiibo)
+16	30	4	$500	$700	Bills (kuraas, koronto)
+17	23	7	$400	$600	Savings (kaydin)
+18	40	12	$600	$1,800	Personal use (qaraabo/saaxiibo)
+19	45	4	$300	$300	Bills (kuraas, koronto)
+20	25	1	$200	$300	Bills (kuraas, koronto)
+21	16	3	$6	$12	Personal use (qaraabo/saaxiibo)
+22	21	5	$400	$600	Savings (kaydin)
+23	34	6	$150	$200	Business (ganacsi)
+24	70	7	$450	$740	Personal use (qaraabo/saaxiibo)
+25	56	3	$809	$1,076	Business (ganacsi)
+26	30	4	$742	$1,401	Business (ganacsi)
+27	50	2	$34	$42	Savings (kaydin)
+28	29	7	$624	$773	Business (ganacsi)
+29	57	17	$227	$385	Savings (kaydin)
+30	33	 	$0	$0	Bills (kuraas, koronto)
+31	25	6	$110	$120	Personal use (qaraabo/saaxiibo)
+32	22	11	$276	$499	Personal use (qaraabo/saaxiibo)
+33	62	14	$437	$478	Business (ganacsi)
+34	34	11	$121	$127	Bills (kuraas, koronto)
+35	30	9	$288	$587	Business (ganacsi)
+36	40	8	$652	$1,381	Savings (kaydin)
+37	26	11	$220	$367	Personal use (qaraabo/saaxiibo)
+38	60	2	$596	$1,031	Bills (kuraas, koronto)
+39	26	14	$278	$636	Savings (kaydin)
+40	56	17	$382	$704	Bills (kuraas, koronto)
+41	65	1	$82	$148	Bills (kuraas, koronto)
+42	41	8	$266	$557	Business (ganacsi)
+43	52	10	$561	$783	Bills (kuraas, koronto)
+44	57	14	$321	$366	Bills (kuraas, koronto)
+45	63	17	$444	$843	Personal use (qaraabo/saaxiibo)
+46	41	11	$191	$288	Bills (kuraas, koronto)
+47	21	1	$206	$361	Business (ganacsi)
+48	59	13	$444	$647	Business (ganacsi)
+49	45	16	$572	$1,064	Personal use (qaraabo/saaxiibo)
+50	16	3	$354	$393	Personal use (qaraabo/saaxiibo)
+51	43	5	$5	$11	Savings (kaydin)
+52	62	8	$569	$1,088	Bills (kuraas, koronto)
+
+					
+					
+Summary Statistics					
+Average	37	8	$312	$544	
+Minimum	16	0	$0	$0	
+Maximum	70	17	$900	$1,800	
+Total respondents	52				
+					
+Purpose Breakdown (count)					
+Business (ganacsi)	13				
+Bills (kuraas, koronto)	16				
+Personal use (qaraabo/saaxiibo)	13				
+Savings (kaydin)	10				
