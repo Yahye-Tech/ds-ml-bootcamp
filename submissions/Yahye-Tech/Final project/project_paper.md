@@ -265,3 +265,9 @@ preprocessing, training and comparison of three machine learning models, selecti
 best model by F1-Score, and deployment as a REST API. The Random Forest model was selected
 as the best performer with an F1-Score of 0.6341 and a Recall of 0.7638. The system allows
 users to submit weather data and receive real-time rainfall predictions with confidence scores.
+
+## Repository
+
+The complete source code for this project is available in the following GitHub repository:
+
+GitHub Repository: https://github.com/Yahye-Tech/Final-Project-Rainfall-prediction-Data-science-and-ML.git
