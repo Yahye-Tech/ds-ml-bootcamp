@@ -2,8 +2,9 @@
 
 **Final Machine Learning Project**
 
-**Author:** Yahye Ahmed Mohamud  
-**Date:** 14 July 2026
+**Author:** Yahye-Tech  
+**Date:** 14 July 2026  
+**GitHub Repository:** [https://github.com/Yahye-Tech/Final-Project-Rainfall-prediction-Data-science-and-ML](https://github.com/Yahye-Tech/Final-Project-Rainfall-prediction-Data-science-and-ML)
 
 ---
 
@@ -173,101 +174,95 @@ API and receive predictions in real time.
 ```json
 {
   "MinTemp": 18.2,
-  "MaxTemp": 29.4,
-  "Rainfall": 0.0,
-  "Humidity9am": 65,
-  "Humidity3pm": 48,
-  "Pressure9am": 1018.4,
-  "Pressure3pm": 1015.7,
-  "Temp9am": 21.0,
-  "Temp3pm": 28.1,
-  "WindGustSpeed": 35,
-  "RainToday": "No"
-}
-```
+    "MaxTemp": 29.4,
+      "Rainfall": 0.0,
+        "Humidity9am": 65,
+          "Humidity3pm": 48,
+            "Pressure9am": 1018.4,
+              "Pressure3pm": 1015.7,
+                "Temp9am": 21.0,
+                  "Temp3pm": 28.1,
+                    "WindGustSpeed": 35,
+                      "RainToday": "No"
+                      }
+                      ```
 
-**Output JSON example:**
+                      **Output JSON example:**
 
-```json
-{
-  "prediction": "No Rain",
-  "probability": 0.94
-}
-```
+                      ```json
+                      {
+                        "prediction": "No Rain",
+                          "probability": 0.94
+                          }
+                          ```
 
-### Additional API Endpoints
+                          ### Additional API Endpoints
 
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | Service information |
-| GET | `/health` | Health check (model and preprocessor status) |
-| GET | `/docs` | Interactive Swagger documentation |
-| POST | `/predict` | Submit weather data and receive rainfall prediction |
+                          | Method | Endpoint | Description |
+                          |---|---|---|
+                          | GET | `/` | Service information |
+                          | GET | `/health` | Health check (model and preprocessor status) |
+                          | GET | `/docs` | Interactive Swagger documentation |
+                          | POST | `/predict` | Submit weather data and receive rainfall prediction |
 
----
+                          ---
 
-## 8. Repository Structure
+                          ## 8. Repository Structure
 
-```
-rainfall-prediction-api/
-├── dataset/
-│   └── weatherAUS.csv
-├── src/
-│   ├── preprocess.py
-│   └── train.py
-├── api/
-│   └── app.py
-├── models/
-│   ├── best_model.pkl
-│   ├── scaler.pkl
-│   └── metrics_report.json
-├── notebooks/
-│   └── exploration.ipynb
-├── README.md
-├── requirements.txt
-└── project_paper.md
-```
+                          ```
+                          ├── dataset/
+                          │   └── weatherAUS.csv
+                          ├── src/
+                          │   ├── preprocess.py
+                          │   └── train.py
+                          ├── api/
+                          │   └── app.py
+                          ├── models/
+                          │   ├── best_model.pkl
+                          │   ├── scaler.pkl
+                          │   └── metrics_report.json
+                          ├── notebooks/
+                          │   └── exploration.ipynb
+                          ├── README.md
+                          ├── requirements.txt
+                          └── project_paper.md
+                          ```
 
-### Planned Commands
+                          ### Planned Commands
 
-```bash
-python src/train.py
-```
+                          ```bash
+                          python src/train.py
+                          ```
 
-The first command trains all machine learning models, compares their performance, and saves
-the best-performing model.
+                          The first command trains all machine learning models, compares their performance, and saves
+                          the best-performing model.
 
-```bash
-uvicorn api.app:app --reload
-```
+                          ```bash
+                          uvicorn api.app:app --reload
+                          ```
 
-The second command starts the FastAPI application locally, allowing users to test the
-prediction endpoint through a browser or API testing tools.
+                          The second command starts the FastAPI application locally, allowing users to test the
+                          prediction endpoint through a browser or API testing tools.
 
----
+                          ---
 
-## 9. Technologies
+                          ## 9. Technologies
 
-| Category | Technology |
-|---|---|
-| Language | Python 3.11+ |
-| Data | pandas, numpy |
-| ML | scikit-learn |
-| API | FastAPI, Uvicorn |
-| Validation | Pydantic |
+                          | Category | Technology |
+                          |---|---|
+                          | Language | Python 3.11+ |
+                          | Data | pandas, numpy |
+                          | ML | scikit-learn |
+                          | API | FastAPI, Uvicorn |
+                          | Validation | Pydantic |
 
----
+                          ---
 
-## 10. Conclusion
+                          ## 10. Conclusion
 
-This project successfully implements an end-to-end rainfall prediction pipeline: data
-preprocessing, training and comparison of three machine learning models, selection of the
-best model by F1-Score, and deployment as a REST API. The Random Forest model was selected
-as the best performer with an F1-Score of 0.6341 and a Recall of 0.7638. The system allows
-users to submit weather data and receive real-time rainfall predictions with confidence scores.
-
-## Repository
-
-The complete source code for this project is available in the following GitHub repository:
-
-GitHub Repository: https://github.com/Yahye-Tech/Final-Project-Rainfall-prediction-Data-science-and-ML.git
+                          This project successfully implements an end-to-end rainfall prediction pipeline: data
+                          preprocessing, training and comparison of three machine learning models, selection of the
+                          best model by F1-Score, and deployment as a REST API. The Random Forest model was selected
+                          as the best performer with an F1-Score of 0.6341 and a Recall of 0.7638. The system allows
+                          users to submit weather data and receive real-time rainfall predictions with confidence scores.
+                          
