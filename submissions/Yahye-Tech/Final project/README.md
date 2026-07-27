@@ -1,6 +1,6 @@
 # Rainfall Prediction API
 
-**Author:** Yahye Ahmed Mohamud  
+**Author:** Yahye-Tech
 **Date:** 14 July 2026
 
 Machine learning project that predicts whether rainfall is expected tomorrow using historical
